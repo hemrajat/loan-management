@@ -1,0 +1,23 @@
+.dashboard{
+    padding: 7%;
+    display: flex;
+}
+.createloanbox{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+.createloanlink{
+    text-decoration: none;
+    width: 150px;
+    height: 19px;
+    font-size: 1rem;
+    color: black;
+    background-color: #79B4B7;
+    padding: 2px 20px 8px 20px;
+    border-radius: 5px;
+    top: 10px;
+}

@@ -1,0 +1,19 @@
+.welcome{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 2rem;
+}
+.login{
+    text-decoration:none;
+    font-size: 2rem;
+    color: black;
+    background-color: #79B4B7;
+    padding: 2px 20px 8px 20px;
+    border-radius: 5px;
+}
+.login:hover{
+    background-color: #00A19D;
+}
+body{
+    background-color: #F8F0DF;
+}
