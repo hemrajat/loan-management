@@ -120,8 +120,8 @@ function mailApproval(email,loanId,data){
   let fromMail = "noreplytohemraj@gmail.com";
   let subject = "Loan approval request";
 
-  const linktoApprove = "http://localhost:3001/"+email+"/"+loanId +"/approved";
-  const linktoReject = "http://localhost:3001/"+email+"/"+loanId +"/rejected";
+  const linktoApprove = "https://loan-management-1.herokuapp.com/"+email+"/"+loanId +"/approved";
+  const linktoReject = "https://loan-management-1.herokuapp.com/"+email+"/"+loanId +"/rejected";
  
                                       
   let text = "These are the loan details\nName  "+data.name
